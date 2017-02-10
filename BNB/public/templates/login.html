@@ -1,0 +1,35 @@
+        <div ng-controller="LoginCtrl" >
+        	<div align="center" style="margin-top: 170px" >
+			
+			<input ng-model="username"class="input" type="text" placeholder="username" required />	
+	
+		</div>	
+			
+		<div align="center" style="margin-top: 20px" >
+			
+			<input ng-model="password"class="input" type="password" placeholder="password" required />	
+	
+		</div>	
+		
+		<div align="center">
+			 <button  ng-click="signIn()" class="btnGo"><img ng-src="images/goImage.jpeg" class="goBtnImage"/></button>
+		</div>
+			
+			<div>
+				
+			    <button  ng-click="howItWorks()" class="leftSideButton" style="margin-left: -60px; margin-top: 150px;">How it works</button>
+				<button  ng-click="forParents()" class="leftSideButton">For parents </button>
+				<button  ng-click="forKids()" class="leftSideButton">For kids</button>
+				
+			</div>
+			
+			<div style="margin-top: -10px">
+			<a href ng-click="forgotPwd()" class="linkForgetPassword">Forgot password?</a></div>	
+			<div><a href ng-click="signUp()" class="linkForgetPassword">Sign up</a></div>
+			
+			<div  style="margin-left: -60px;margin-top:60px">
+			<p style="font-size:11px">Copyright 2016 BirdsAndBats.All rights reserved |<a ng-href="">Terms of use </a>|<a ng-href="" >Privacy and Policy</a></p>
+			</div>
+
+        </div>
+        

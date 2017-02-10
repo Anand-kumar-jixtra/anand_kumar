@@ -1,0 +1,46 @@
+        <div ng-controller="SignUpCtrl" >
+        	<div align="center" style="margin-top: 170px" >
+			
+			<input ng-model="username"class="input" type="text" placeholder="username" required />	
+	
+		</div>	
+			
+		<div align="center" style="margin-top: 20px" >
+			
+			<input ng-model="email"class="input" type="email" placeholder="email" required />	
+	
+		</div align="center" style="margin-top: 20px">	
+
+		 <div align="center" style="margin-top: 20px">
+		 Age: <input type="number" ng-model="age" min=7 max=17 size="2" maxlength="2" />
+		 </div>
+		
+		<div align="center" style="margin-top: 20px">Gender:
+				<input type="radio" ng-model="gender" value="male" ng-required>  Male
+				<input type="radio" ng-model="gender" value="female" ng-required> Female <br/>
+		</div>
+
+		<div align="center" style="margin-top: 20px">Role:
+				<input type="radio" ng-model="role" value="junior" ng-required>  Junior
+				<input type="radio" ng-model="role" value="senior" ng-required> Senior <br/>
+		</div>
+
+
+		<div align="center" style="margin-top: 20px" >
+			
+			<input ng-model="password"class="input" type="password" placeholder="password" required />	
+	
+		</div>	
+
+		<div align="center" style="margin-top: 20px" >
+			
+			<input ng-model="confirmPassword"class="input" type="password" placeholder="confirmPassword" required />	
+	
+		</div>	
+		
+		<div align="center">
+			 <button  ng-click="signUpUser()" class="btnGo"><img ng-src="images/goImage.jpeg" class="goBtnImage"/></button>
+		</div>
+
+        </div>
+        

@@ -1,0 +1,64 @@
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://dl.dropboxusercontent.com/s/nz1fzunlqzzz7uo/login_bg.png?dl=0");
+  
+}
+
+/*.container{
+	
+background-image: url("images/images.png");
+}*/
+
+.heading{
+margin-left: 80px;
+margin-top:30px;
+font-family:'Gloria Hallelujah', cursive;
+}
+
+.input
+{
+ height: 30px;
+ width: 190px;
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+ border:solid 1px;
+ padding:5px;
+ padding-left: 15px!important;
+ background-color: transparent;
+}
+
+.btnGo
+{
+height: 30px; 
+width: 50px; 
+margin-top:20px;
+}
+
+.goBtnImage{
+height: 40px; 
+width: 60px; 
+margin-top:-2px;	
+margin-left: -10px;
+}
+
+.leftSideButton{
+height: 42px; 
+width: 122px;
+margin-left: 10px;	
+font-family:'Indie Flower', cursive;
+font-size: 19px;
+background-color: transparent;
+border:none;
+border-radius: 10px;
+}
+
+.rightSideButton{
+	height:120px;
+	width: 120px;
+}
+
+.linkForgetPassword{
+margin-left: 600px;
+}
